@@ -1,0 +1,2 @@
+# Off-by-One Error in Dart List Iteration
+This example demonstrates a common off-by-one error in Dart when iterating over a list using a for loop.  The loop condition `i <= numbers.length` causes an error because list indices are zero-based. The correct condition is `i < numbers.length`.
